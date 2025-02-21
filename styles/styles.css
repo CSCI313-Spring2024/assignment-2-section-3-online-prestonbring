@@ -1,0 +1,148 @@
+
+*{box-sizing:border-box;
+}
+
+body {
+background-image: url("conifer.jpg"); background-position:center; background-size:cover; 
+background-repeat:no-repeat; background-attachment:fixed;
+font-family: Verdana;
+padding: 20px;
+text-align: center;
+color: #white;
+font: ;
+}
+
+ol {
+display: inline-block;
+text-align: left;
+margin-top:0px;
+}
+
+table {
+margin-left: auto;
+margin-right: auto;
+text-align: left;
+}
+
+a {
+color: white;
+}
+
+img {
+vertical-align: middle;
+}
+
+.title {
+padding: 0px; 
+font-size: 30px;
+text-align: left;
+margin-top: 0px;
+opacity:1;
+width: 100%;
+color: white;
+vertical-align: text-bottom;
+}
+
+.navbar{
+background-color: #463020;
+overflow: hidden;
+opacity:1;
+margin-top: 0px;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+}
+
+.navbar a { 
+float: left;
+color: #ffffff;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+opacity:1;
+}
+
+.navbar a:hover {
+background-color: #008000;
+color: white;
+opacity:1;
+}
+
+.navbar a.active {
+background-color: #004F00;
+color: white;
+opacity:1;	
+}
+
+.leftcolumn{
+float: left;
+width: 60%;
+color: white;
+}
+
+.leftcolumn2{
+float: left;
+width: 50%;
+color: white;
+}
+
+.centercolumn{
+float: center;
+width: 100%;
+color: white;
+}
+
+.rightcolumn {
+float: left;
+width: 40%;
+padding-left: 40px;
+color: white;
+}
+
+.rightcolumn2 {
+float: left;
+width: 50%;
+padding-left: 40px;
+color: white;
+}
+
+.faking{
+background-color: #463020;
+width: 100%;
+padding: 20px;
+}
+
+.card{
+background-color: #463020;
+padding: 20px;
+margin-top: 40px;
+opacity:1;
+color: white;
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+opacity:1;
+}
+  
+.footer {
+padding: 20px;
+text-align: center;
+background: #463020;
+margin-top: 20px;
+opacity:1;
+color: white;
+}
+
+.active, .dot:hover {
+background-color: #463020;
+}
+
+video {
+	width: 640px;
+	height: 360px;
+	border: 20px ridge green;
+}
